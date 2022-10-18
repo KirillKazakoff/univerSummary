@@ -21,7 +21,7 @@ enterstr db 0ah,0dh,'$'
 .code
 	assume ds:@data,es:@data
 .386
-include macsos.inc 
+include lib.inc 
 include Frank.inc
 include Output.inc
 
